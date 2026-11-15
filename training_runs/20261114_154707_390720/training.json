@@ -1,0 +1,370 @@
+{
+  "train_objects": [
+    "18_Sco",
+    "47_UMa",
+    "51_Peg",
+    "61_Vir",
+    "70_Vir",
+    "AB_Dor",
+    "AD_Leo",
+    "Amphitrite",
+    "Astraea",
+    "BY_Dra",
+    "Barnards_Star",
+    "Bellona",
+    "Beta_Hyi",
+    "Beta_Lyr",
+    "Ceres",
+    "EV_Lac",
+    "Egeria",
+    "Eta_Aql",
+    "Euterpe",
+    "Flora",
+    "Gamma_Pav",
+    "HD_102365",
+    "HD_114613",
+    "HD_13445",
+    "HD_154345",
+    "HD_156668",
+    "HD_168443",
+    "HD_187123",
+    "HD_20794",
+    "HD_209458",
+    "HD_210277",
+    "HD_216437",
+    "HD_217107",
+    "HD_40307",
+    "Hebe",
+    "Hygiea",
+    "Irene",
+    "Juno",
+    "Kalliope",
+    "Lutetia",
+    "Melpomene",
+    "Mira",
+    "Pallas",
+    "Phocaea",
+    "Proserpina",
+    "RT_Aur",
+    "R_Aqr",
+    "R_Dra",
+    "R_Leo",
+    "SU_Cas",
+    "S_Sge",
+    "T_Mon",
+    "Tau_Cet",
+    "Thalia",
+    "Themis",
+    "UV_Cet",
+    "UX_Ari",
+    "U_Cep",
+    "Urania",
+    "Vesta",
+    "Victoria",
+    "W_Sgr",
+    "W_UMa",
+    "YZ_CMi",
+    "Y_Oph",
+    "Zeta_Gem"
+  ],
+  "validation_objects": [
+    "Algol",
+    "Betelgeuse",
+    "Delta_Cep",
+    "Eunomia",
+    "HD_117618",
+    "HD_192310",
+    "HD_69830",
+    "HD_85512",
+    "Metis",
+    "Psyche",
+    "RR_Lyr",
+    "Thetis",
+    "WISE_0855",
+    "X_Cyg"
+  ],
+  "test_objects": [
+    "AR_Lac",
+    "Epsilon_Indi_B",
+    "Fortuna",
+    "HD_134987",
+    "HD_16141",
+    "HD_16417",
+    "HD_190360",
+    "HD_222582",
+    "Iris",
+    "Massalia",
+    "Parthenope",
+    "RW_Aur",
+    "RZ_Cas",
+    "R_Cas",
+    "R_Dor"
+  ],
+  "history": [
+    [
+      0.9735226188343411,
+      0.8033650982670668
+    ],
+    [
+      0.8118642093589802,
+      0.7678207958616862
+    ],
+    [
+      0.7929465079675296,
+      0.7364139113484359
+    ],
+    [
+      0.7638276642269831,
+      0.7527689279579535
+    ],
+    [
+      0.7579599482541219,
+      0.7538303064136971
+    ],
+    [
+      0.752538858924856,
+      0.7533788146769128
+    ],
+    [
+      0.7461408560564096,
+      0.7554670917551692
+    ],
+    [
+      0.7445497518946396,
+      0.7151908118550371
+    ],
+    [
+      0.7356444627889325,
+      0.7395870373016451
+    ],
+    [
+      0.7324903490917235,
+      0.7234691701284269
+    ],
+    [
+      0.7365916564409408,
+      0.7216974540454585
+    ],
+    [
+      0.7260160299070697,
+      0.7783224942480645
+    ],
+    [
+      0.7182743066687204,
+      0.7217352310331856
+    ],
+    [
+      0.7227704616929082,
+      0.7158381946203185
+    ],
+    [
+      0.7151748136566967,
+      0.7121463679685825
+    ],
+    [
+      0.7135029464270585,
+      0.7561324333272329
+    ],
+    [
+      0.7111805631446348,
+      0.7226785435909178
+    ],
+    [
+      0.7089908434063732,
+      0.7255898459655482
+    ],
+    [
+      0.7076744994957833,
+      0.7080853683192555
+    ],
+    [
+      0.6970705034493787,
+      0.7265731601453409
+    ]
+  ],
+  "seed": 42,
+  "pool_size": 2,
+  "object_validation_history": [
+    {
+      "epoch": 1,
+      "macro_f1": 0.5,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 2,
+      "macro_f1": 0.4595959595959596,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.75,
+        "variable": 0.0
+      }
+    },
+    {
+      "epoch": 3,
+      "macro_f1": 0.5,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 4,
+      "macro_f1": 0.5,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 5,
+      "macro_f1": 0.521164021164021,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.5,
+        "variable": 0.2
+      }
+    },
+    {
+      "epoch": 6,
+      "macro_f1": 0.6904761904761904,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.5,
+        "variable": 0.6
+      }
+    },
+    {
+      "epoch": 7,
+      "macro_f1": 0.5,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 8,
+      "macro_f1": 0.5,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 9,
+      "macro_f1": 0.6535353535353535,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.25,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 10,
+      "macro_f1": 0.5081585081585082,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 11,
+      "macro_f1": 0.7666666666666666,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.5,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 12,
+      "macro_f1": 0.5,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 13,
+      "macro_f1": 0.6111111111111112,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.5,
+        "variable": 0.4
+      }
+    },
+    {
+      "epoch": 14,
+      "macro_f1": 0.6178451178451179,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.5,
+        "variable": 0.4
+      }
+    },
+    {
+      "epoch": 15,
+      "macro_f1": 0.6535353535353535,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.25,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 16,
+      "macro_f1": 0.5888888888888889,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.25,
+        "variable": 0.6
+      }
+    },
+    {
+      "epoch": 17,
+      "macro_f1": 0.6111111111111112,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.5,
+        "variable": 0.4
+      }
+    },
+    {
+      "epoch": 18,
+      "macro_f1": 0.6535353535353535,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.25,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 19,
+      "macro_f1": 0.5081585081585082,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.0,
+        "variable": 0.8
+      }
+    },
+    {
+      "epoch": 20,
+      "macro_f1": 0.5888888888888889,
+      "recall_by_class": {
+        "moving": 1.0,
+        "stable": 0.25,
+        "variable": 0.6
+      }
+    }
+  ],
+  "best_validation_macro_f1": 0.7666666666666666
+}
